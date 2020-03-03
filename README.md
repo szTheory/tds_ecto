@@ -54,7 +54,7 @@ end
 
 Also, if you need to map table to schema other than [dbo], simple use @schema_prefix "your_schema", eg:
 
-```
+```elixir
 defmodule Invoices.Invoice do
   use Ecto.Schema
 
